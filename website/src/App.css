@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+  }
+  
+  form {
+    flex-direction: column;
+    width: 100%;
+  }
+ 
+  .slide-container {
+    height: 200px;
+  }
+}
+

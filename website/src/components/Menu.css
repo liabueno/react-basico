@@ -1,0 +1,22 @@
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+   
+.menu li {
+    display: inline;
+}
+   
+.menu a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+   
+.menu a:hover {
+    background-color: #ddd;
+    color: blue;
+}
