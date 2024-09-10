@@ -11,7 +11,7 @@ function Form() {
       <label>
         Motivo para o contato:
         <select name="motivo" required>
-          <option selected>Selecionar opção</option>
+          <option defaultValue='selected'>Selecionar opção</option>
           <option value="reclamacao">Reclamação</option>
           <option value="elogio">Elogio</option>
           <option value="sugestao">Sugestão</option>
