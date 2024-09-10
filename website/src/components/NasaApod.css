@@ -16,23 +16,23 @@ p {
 
 img {
     width: auto;
-    max-width: 85%; 
+    max-width: 40%; 
     height: auto; 
-    max-height: 450px; 
+    max-height: 40%; 
     margin: 20px auto; 
     display: block; 
 }
 
 iframe {
     width: 100%;
-    max-width: 800px; 
-    height: 450px; 
+    max-width: 75%; 
+    height: 60%; 
     margin: 20px auto; 
     border: none; 
 }
 
 .loading-image{
-    margin-top: 15%;
-    width: 15%;
-    height: 15%;
+    margin-top: 10%;
+    width: 10%;
+    height: 10%;
 }

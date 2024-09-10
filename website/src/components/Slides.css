@@ -1,8 +1,8 @@
 /* components/Slides.css */
 .slides {
   overflow: hidden;
-  width: 55%;
-  height: 50%; /* Ajuste a altura conforme necessário */
+  width: 30%;
+  height: 27%; /* Ajuste a altura conforme necessário */
   position: relative;
   margin: 0 auto; /* Centraliza horizontalmente */
 }

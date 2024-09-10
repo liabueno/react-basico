@@ -1,10 +1,15 @@
 .footer {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    background-color: #333;
-    margin-top: 6%;
-    /* TODO: FIXED-BOTTOM */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 80px;
+  background-color: #333;
+  color: white;
+  z-index: 1000;
   }
   
   .social-icon {

@@ -1,26 +1,40 @@
-/* Menu.css */
 .menu {
-  list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
   background-color: #333;
-  padding: 10px 0; 
-  margin: 0; 
-  height: 8vh
+  list-style: none;
+  margin: 0;
 }
 
 .menu li {
-  padding: 0;
-  margin-top: 15px;
+  margin: 0 15px;
 }
 
-.menu li a {
+.menu a {
   color: white;
   text-decoration: none;
-  transition: color 0.3s;
-  font-size: 20px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
 }
 
-.menu li a:hover {
+.menu a:hover {
   color: #7fb9f0;
+}
+
+.logo {
+  width: 140px;
+  height: auto;
+}
+
+.menu li:first-child {
+  margin-right: auto;
+}
+
+
+
+.menu a svg {
+  margin-right: 8px; 
 }
