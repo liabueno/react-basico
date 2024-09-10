@@ -1,6 +1,5 @@
-// components/Input.js
 import React from 'react';
-import './Input.css'; // Adicione estilos se necessário
+import './Input.css';
 
 function Input({ type, name, label, required, placeholder }) {
   return (

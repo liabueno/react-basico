@@ -1,4 +1,3 @@
-// components/Menu.js
 import { Link } from 'react-router-dom';
 import { FaHome, FaRocket , FaPhone } from 'react-icons/fa';
 import './Menu.css';

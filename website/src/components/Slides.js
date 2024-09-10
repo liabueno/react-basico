@@ -1,4 +1,3 @@
-// components/Slides.js
 import React, { useState, useEffect } from 'react';
 import { FaArrowLeft, FaArrowRight, FaPause, FaPlay } from 'react-icons/fa';
 import './Slides.css';
@@ -60,7 +59,6 @@ function Slides() {
       <button className="nav-button next" onClick={goToNextSlide}>
         <FaArrowRight />
       </button>
-   
     </div>
   );
 }

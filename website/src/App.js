@@ -1,4 +1,3 @@
-// App.js
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NasaPage from './pages/NasaPage';
 import Contact from './pages/Contact';

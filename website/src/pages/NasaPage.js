@@ -1,4 +1,3 @@
-// App.js
 import React from 'react';
 import NasaApod from '../components/NasaApod';
 
