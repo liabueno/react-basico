@@ -1,34 +1,25 @@
-import React from 'react';
+// App.js
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import NasaPage from './pages/NasaPage';
+import Contact from './pages/Contact';
 import Menu from './components/Menu';
-// import Form from './components/Form';
-import Slides from './components/Slides';
-import './App.css';
- 
-function App() {
-            {/* TODO: ARRUMAR ESSA PAGE
-              CRIAR HOME */}
+import Homepage from './pages/Homepage';
+import Footer from './components/Footer';
 
+function App() {
   return (
-    <div>
-      <header>
+    <Router>
+      <div className="App">
         <Menu />
-      </header>
-      <main>
-        <section>
-          <h2>Galeria de Slides</h2>
-          <Slides />
-        </section>
-        <section>
-        {/* <h2>Formulário de Cadastro</h2>
-        <Form /> */}
-        {/* TODO: PAGE CONTATO */}
-        </section>
-      </main>
-      <footer>
-        <p>Desenvolvido por Júlia</p>
-      </footer>
-    </div>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/nasa" element={<NasaPage />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
- 
+
 export default App;

@@ -1,0 +1,38 @@
+.container {
+    text-align: center; 
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem; 
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+    margin: 0 auto; 
+    max-width: 800px; 
+}
+
+img {
+    width: auto;
+    max-width: 85%; 
+    height: auto; 
+    max-height: 450px; 
+    margin: 20px auto; 
+    display: block; 
+}
+
+iframe {
+    width: 100%;
+    max-width: 800px; 
+    height: 450px; 
+    margin: 20px auto; 
+    border: none; 
+}
+
+.loading-image{
+    margin-top: 15%;
+    width: 15%;
+    height: 15%;
+}

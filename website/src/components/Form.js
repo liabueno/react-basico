@@ -1,32 +1,29 @@
+// components/Form.js
 import React from 'react';
+import Input from './Input';
 import './Form.css';
- 
+
 function Form() {
   return (
     <form>
-      <div>
-        <label>Nome:</label>
-        <input type="text" name="nome" required />
-      </div>
-      <div>
-        <label>Email:</label>
-        <input type="email" name="email" required />
-      </div>
-      <div>
-        <label>Mensagem:</label>
-        <textarea name="mensagem" required></textarea>
-      </div>
-      <div>
-        <label>Gênero:</label>
-        <select>
-          <option value="masculino">Masculino</option>
-          <option value="feminino">Feminino</option>
-          <option value="outro">Outro</option>
+      <Input type="text" name="name" label="Nome" placeholder="Digite seu nome" required />
+      <Input type="email" name="email" label="E-mail" placeholder="Digite o seu e-mail" required />
+      <label>
+        Motivo para o contato:
+        <select name="motivo" required>
+          <option selected>Selecionar opção</option>
+          <option value="reclamacao">Reclamação</option>
+          <option value="elogio">Elogio</option>
+          <option value="sugestao">Sugestão</option>
         </select>
-      </div>
+      </label>
+      <label>
+        Mensagem:
+        <textarea name="message" placeholder="Deixe sua mensagem" required></textarea>
+      </label>
       <button type="submit">Enviar</button>
     </form>
   );
 }
- 
+
 export default Form;

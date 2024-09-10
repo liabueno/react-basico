@@ -1,0 +1,13 @@
+/* pages/Home.css */
+.home {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .slides {
+    margin-bottom: 20px;
+  }
+
+h1 {
+    color: #128ef3;
+}

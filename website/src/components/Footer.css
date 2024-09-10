@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #333;
+    margin-top: 6%;
+    /* TODO: FIXED-BOTTOM */
+  }
+  
+  .social-icon {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  .social-icon:hover {
+    color: #7fb9f0;
+  }
+  
