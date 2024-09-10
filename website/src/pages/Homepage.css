@@ -8,7 +8,7 @@
   }
 
 h1 {
-    color: #128ef3;
+    color: #128ef3 ;
 }
 
 .nasa-logo{
@@ -24,11 +24,11 @@ hr {
 
 @media only screen and (max-width: 768px) {
   .nasa-info {
-    flex-direction: column; /* Empilha o texto e a logo em telas menores */
+    flex-direction: column; 
     text-align: center;
   }
 
   .nasa-logo {
-    margin-top: 20px; /* Espaço entre o texto e a logo em telas menores */
+    margin-top: 20px;
   }
 }

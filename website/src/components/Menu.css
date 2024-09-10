@@ -21,16 +21,17 @@
 }
 
 .menu a:hover {
-  color: #7fb9f0;
-}
-
-.logo {
-  width: 140px;
-  height: auto;
+  color: #62c0f5;
 }
 
 .menu li:first-child {
   margin-right: auto;
+}
+
+.menu img.logo {
+  width: 20%;
+  margin: 0;
+  padding: 3%;
 }
 
 .menu a svg {
