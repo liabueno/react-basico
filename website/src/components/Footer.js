@@ -1,4 +1,3 @@
-// components/Footer.js
 import { FaInstagram, FaTiktok, FaFacebook  } from 'react-icons/fa';
 import './Footer.css';
 
