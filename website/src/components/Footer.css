@@ -10,11 +10,12 @@
   background-color: #333;
   color: white;
   z-index: 1000;
+  text-align: center;
 }
   
 .social-icon {
   color: white;
-  font-size: 15px;
+  font-size:20px;
   margin: 0 10px;
   transition: color 0.3s;
 }
@@ -22,4 +23,3 @@
 .social-icon:hover {
   color: #62c0f5;
 }
-  

@@ -21,6 +21,7 @@ img {
     max-height: 40%; 
     margin: 20px auto; 
     display: block; 
+    margin-bottom: 5%;
 }
 
 iframe {
@@ -29,6 +30,7 @@ iframe {
     height: 60%; 
     margin: 20px auto; 
     border: none; 
+    margin-bottom: 5%;
 }
 
 .loading-image{
@@ -43,10 +45,8 @@ h4{
 
 @media only screen and (max-width: 768px) {
     iframe, img{
-      max-width: 74%;
-      max-height: 74%;
-    }
-    h4{
+        max-width: 74%;
+        max-height: 74%;
         margin-bottom: 15%;
     }
 }

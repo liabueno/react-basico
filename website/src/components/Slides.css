@@ -1,7 +1,7 @@
 .slides {
   overflow: hidden;
-  width: 30%;
-  height: 27%;
+  width: 40%;
+  height: 30%;
   position: relative;
   margin: 0 auto;
 }
@@ -28,6 +28,6 @@
 
 @media only screen and (max-width: 768px) {
   .slides{
-    width: 100%;
+    width: 95%;
   }
 }

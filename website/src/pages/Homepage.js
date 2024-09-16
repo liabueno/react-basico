@@ -5,7 +5,7 @@ import './Homepage.css';
 function Homepage() {
   return (
     <div className="home">
-      <h1>Bem-vindo a Galeria dos Cosmos!</h1>
+      <h1>Conheça a Galeria dos Cosmos!</h1>
       <p>
         Este site utiliza a API da NASA para trazer a você a "Imagem Astronômica do Dia" (APOD - Astronomy Picture of the Day).
         Aqui, você poderá explorar imagens e vídeos astronômicos incríveis fornecidos pela NASA.

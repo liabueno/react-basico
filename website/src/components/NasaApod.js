@@ -11,13 +11,13 @@ const NasaApod = () => {
         const apiKey = 'lgxbCub5Tpsutg6JaMPvRXdyz5SEnuhVHZdxH4hA'; 
         const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=${apiKey}`);
         if (!response.ok) {
-          throw new Error('Network response was not ok');
+          throw new Error('A resposta da rede não foi satisfatória.');
         }
         const data = await response.json();
         setApodData(data);
       } catch (error) {
         setError(error);
-        console.error('Error fetching data:', error);
+        console.error('Erro ao buscar os dados:', error);
       }
     };
 
@@ -27,13 +27,14 @@ const NasaApod = () => {
   if (error) return <div>Error: {error.message}</div>;
   if (!apodData)  return (
     <div className="loading-container">
-      <img src='/images/loadingImage.gif' alt="Loading..." className="loading-image" />
+      <img src='/images/loadingImage.gif' alt="Carregando..." className="loading-image" />
     </div>
   );
 
   return (
     <div className="container">
       <h1>Imagem Astronômica do Dia</h1>
+      <h4>{apodData.title}</h4>
       {apodData.media_type === 'image' ? (
         <img src={apodData.url} alt={apodData.title} />
       ) : (
@@ -43,7 +44,6 @@ const NasaApod = () => {
           allowFullScreen
         ></iframe>
       )}
-      <h4>{apodData.title}</h4>
     </div>
   );
 };
